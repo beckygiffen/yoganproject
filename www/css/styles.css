@@ -1,0 +1,318 @@
+
+.window{ /* the size of my window is like 100%*/
+  height: 100%;
+}
+body {
+
+  background-color: #FFFDFA;
+  color: #3F220F;
+  position: relative;
+  font-size: 3.2vw; /* this was meant to make the font shrink once the device shrunk but it became near enough impissible */
+
+}
+.backgroundWhite{
+  background-color: #FFFDFA; /* declaring this colour because it ewouldnt stay it*/
+}
+.text-offWhite{
+  color: #FFFDFA !important; /* overriding the text colour */
+}
+
+nav{ /* style of my navs including colours and fonts etc. opacity*/
+  background-color: #FFFDFA;
+  opacity: 0.8; 
+  font-size: 48px;
+font-family: 'Be Vietnam', sans-serif;
+  color:#3F220F;
+ 
+
+}
+nav .navbar-nav li a{ /* the colour of the nav items*/
+  color: #3F220F!important;
+  }
+
+  nav .navbar-nav li a:hover{ /* when i hover on the nav items, this happens*/
+    color: #3F220F!important;
+    text-decoration-line: underline;
+    }
+    nav .navbar-nav li a:active{ /* when i am on that nav item, this happens, however it wouldnt work properly :((((*/
+      color: #3F220F!important;
+      text-decoration-line: underline;
+      }
+nav:hover{ /* when you hover this happens */
+  background-color: #FFFDFA;
+  opacity: 0.8;
+  font-size: 48px;
+font-family: 'Be Vietnam', sans-serif;
+  color:#3F220F;
+ 
+}
+.nav-item{ /*for some reason it doesnt work properly when i delete this however i dont think its needed*/
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: bold;
+  color:#3F220F!important;
+
+}
+.nav-item:hover{ /*for some reason it doesnt work properly when i delete this however i dont think its needed*/
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: bold;
+  color:#3F220F!important;
+
+}
+.about1{ /*this is to make the text on this class go smaller on scroll*/
+  background-color: #FFFDFA;
+  padding: 50px 10px;
+  color: #3F220F;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+
+.products1{ /*this is to make the text on this class go smaller on scroll*/
+  background-color: #FFFDFA;
+  padding: 50px 10px;
+  color: #3F220F;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.services1{ /*this is to make the text on this class go smaller on scroll*/
+  background-color: #FFFDFA;
+  padding: 50px 10px;
+  color:#3F220F;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.contact1{ /*this is to make the text on this class go smaller on scroll*/
+  background-color: #FFFDFA;
+  padding: 50px 10px;
+  color:#3F220F;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+.basket1{ /*this is to make the text on this class go smaller on scroll*/
+  background-color: #FFFDFA;
+  padding: 50px 10px;
+  color: #3F220F;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+.carousel-item{ /*carousel properties*/
+  font-style: bold;
+  font-size: 90px;
+  color:#3F220F !important;
+
+
+  
+}
+.carousel-item, h1{ /* appl to the header of the carousel item*/
+  font-family: 'Barlow Condensed', sans-serif;
+  color:#3F220F !important;
+  font-size: 60px !important;
+}
+
+.carousel-item, h2{ /* appl to the smaller header of the carousel item*/
+  font-family: 'Be Vietnam', sans-serif;
+  color:#3F220F !important;
+  font-size: 20px !important;
+}
+
+button{ /* button styles*/
+ border: 2px solid;
+  background-color:#FFFDFA; 
+  color: #3F220F;
+  font-size: 18px;
+}
+
+button:hover{ /*button styles on hover*/
+  background-color: #3F220F;
+  color: #FFFDFA;
+}
+
+
+
+
+.toplogo{ /*nav bar*/
+  margin: 20px;
+  font-family: 'Be Vietnam', sans-serif;
+}
+.toplogo img{ /*image in nav bar made this size*/
+height: 30%;
+width: 30%;
+}
+
+.card{ /*card has these properties*/
+  background-color: #FFFDFA;
+  border-color:  #FFFDFA;
+  border: 0px;
+  font-size: 18px;
+  font-family: 'Be Vietnam', sans-serif;
+  color: #3F220F;
+}
+.card-body{ /*card body has these properties*/
+  width:100;
+  height:100;
+  background-color: #FFFDFA;
+  border-color: #FFFDFA;
+  font-family: 'Be Vietnam', sans-serif;
+  color: #3F220F;
+  font-size:30px;
+
+}
+.card-body img{/*card image has these properties*/
+  height: 30%;
+  width: 100%;
+  z-index: 50;
+}
+.img__wrap { /*image wrap appears on a fixed position and has these properties*/
+  position: relative;
+  padding: 10px;
+  height: 200px;
+  width: 500px;
+
+}
+
+.img__description { /* image descrioption for these transition on hover and shows the below applies to the text*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20;
+  right: 0;
+  border-radius: 10px;
+  background: #FFFDFA;
+  color: #3F220F;
+  visibility: hidden;
+  opacity: 0.05;
+  max-width: 50ch;
+  font-size:20px;
+  text-align: right;
+  
+
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description { /*on hover*/
+  visibility: visible;
+  opacity: 0.8;
+  padding: 20px;
+}
+.img__wrap2 {
+  position: relative;
+  padding: 10px;
+  height: 200x;
+  width: 500px;
+
+}
+
+.img__description2 {/* image descrioption for these transition on hover and shows the below applies to the text*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 20;
+  border-radius: 10px;
+  background: #FFFDFA;
+  color: #3F220F;
+  visibility: hidden;
+  opacity: 0.05;
+  max-width: 50ch;
+  font-size:20px;
+  text-align: right;
+  
+
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.img__wrap2:hover .img__description2 { /*on hover */
+  visibility: visible;
+  opacity: 0.8;
+  padding: 20px;
+}
+.p{ /*paragraph styles listed below*/
+  font-size: 20px !important;
+  font-family: 'Be Vietnam', sans-serif;
+                color:#3F220F;
+}
+
+
+.plainbasket img{ /*image has these styles applied*/
+    height: 30%;
+    width: 30%;
+    }
+    .pineapplebasket img{ /*image has these styles applied*/
+      height: 30%;
+      width: 30%;
+      }
+    /*was meant to shrink device size to font size but didnt work*/
+
+            
+            .form1{ /*style oin the form*/
+              font-size: 48px;
+              font-family: 'Be Vietnam', sans-serif;
+                color:#3F220F;
+            }
+            .form-group{ /*style oin the form*/
+          font-size: 48px;
+              font-family: 'Be Vietnam', sans-serif;
+                color:#3F220F;
+            }
+          footer{ /*style in the footer*/
+            font-size: 18px;
+            font-family: 'Be Vietnam', sans-serif;
+            color:#3F220F;
+          }
+          
+          p a{ /*a link in paragraph apply these styles*/
+            color: #3F220F;
+            text-decoration:none;
+          }
+          p a:hover{ /*a link on hover in paragraph apply these styles*/
+            color:#3F220F;
+            text-decoration-line: underline;
+          }
+
+          @media only screen and (min-width: 600px) { /*cant get it to work but uts meant to shrink font :( */
+            h1{
+              font-size:10px;
+            }
+            h2{
+              font-size: 10px;
+
+            }
+            p{
+              font-size: 20px;
+            }
+            h4{
+              font-size:50px;
+            }
+          }
+        
+
